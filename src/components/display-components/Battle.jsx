@@ -15,9 +15,20 @@ export default class Battle extends Component {
                     <div className={styles['combat-enemy-sprite']}></div>
                 </section>
                 <section className={styles['combat-bot']}>
-                    <div className={styles['combat-bot-left']}></div>
-                    <div className={styles['combat-bot-middle']}></div>
-                    <div className={styles['combat-bot-right']}></div>
+                    <div className={styles['combat-bot-left']}>
+                        <div className={styles['player-cards']}>
+                            <div className={styles['player-deck']}></div>
+                            <div className={styles['player-discard']}></div>
+                        </div>
+                        <div className={styles['player-alebrijes']}></div>
+                    </div>
+                    <div className={styles['combat-bot-middle']}>
+                        <div className={styles['player-hand']}></div>
+                        <div className={styles['player-energy']}></div>
+                    </div>
+                    <div className={styles['combat-bot-right']}>
+                        <div className={styles['player-potions']}></div>
+                    </div>
                 </section>
             </div>
         )
