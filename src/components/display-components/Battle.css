@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+
+.battlefield {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.combat-top {
+    display: flex;
+    background-color: aquamarine;
+    height: 10%;
+    width: 100%;
+}
+
+.combat-health-bar {
+    display: flex;
+    border: 2px solid black;
+}
+
+.combat-middle {
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    width: 100%;
+    background-color: coral
+}
+
+.player-relics {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+    
+    border: black solid 2px;
+}
+
+.combat-middle-sprites {
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.player-sprite {
+    background-color: rgb(228, 82, 82);
+    height: 250px;
+    width: 220px;
+}
+
+.enemy-sprite {
+    background-color: rgb(85, 85, 209);
+    height: 250px;
+    width: 220px;
+}
+
+.combat-bot {
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    width: 100%;
+    background-color: rgb(236, 236, 157);
+}
+
+.combat-bot-left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.player-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.player-deck, .player-discard {
+    border: 2px solid black;
+    height: 30px;
+    width: 20px;
+}
+
+.player-alebrijes {
+    border: solid 2px black;
+    height: 300px;
+    width: 250px;
+}
+
+.combat-bot-middle {
+    display: flex;
+    flex-direction: row;
+}
+
+.combat-bot-right {
+    display: flex;
+}
