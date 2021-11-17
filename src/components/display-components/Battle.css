@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    overflow:hidden;
    }
 
 .battlefield {
@@ -27,7 +28,11 @@
     flex-direction: column;
     height: 65%;
     width: 100%;
-    background-color: coral
+    background-image: url('https://cdn.discordapp.com/attachments/804704049626349579/910646128725344266/IMG_1074.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 740px;
 }
 
 .player-relics {
@@ -45,19 +50,27 @@
     height: 90%;
     width: 100%;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .player-sprite {
-    background-color: rgb(228, 82, 82);
+    background-image: url('https://www.trutravels.com/blog/dancing-skeletons-02.png?w1366;h648;');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 250px;
     height: 250px;
     width: 220px;
+    margin-right: 300px;
 }
 
 .enemy-sprite {
-    background-color: rgb(85, 85, 209);
+    background-image: url('https://www.trutravels.com/blog/dancing-skeletons-02.png?w1366;h648;');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 250px;
     height: 250px;
     width: 220px;
+    margin-left: 300px;
 }
 
 .combat-bot {
