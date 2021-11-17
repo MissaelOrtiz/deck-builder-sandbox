@@ -1,5 +1,6 @@
 import React from 'react';
+import Battle from '../display-components/Battle';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <Battle />;
 }
